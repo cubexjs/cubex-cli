@@ -26,7 +26,7 @@
   "command.login.groupIdError": "token参数groupId校验错误，请检查token后重试",
   "command.login.server": "您正在登录自定义服务，请输入服务器域名。",
   "command.preview.servicePortConflict": "端口冲突，您已经在这个端口启了一个服务，请直接打开",
-  "command.preview.serviceStart": "服务启动，如果浏览器还没打开，麻烦手动用 chrome 浏览器打开 localhost:{port}",
+  "command.preview.serviceStart": "服务启动，如果浏览器还没打开，麻烦手动用 chrome 浏览器打开 http://localhost:{port}",
   "command.publish.loginMessage": "您还没有登录，请先用[datav login]命令登录。",
   "command.publish.publishing": "发布中...",
   "command.publish.regionError": "region错误，请重新核对。",

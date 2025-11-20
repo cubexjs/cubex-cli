@@ -33,7 +33,7 @@ const logo =
 
 `;
 
-console.log(chalk.cyan(logo));
+console.log(chalk.cyan?chalk.cyan(logo):'');
 checkNodejsVersion();
 console.log(i18n.get('hello.npm'));
 

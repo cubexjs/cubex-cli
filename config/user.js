@@ -11,12 +11,13 @@ if (process.platform === 'win32') {
 }
 
 const datavrcURL = path.join(root, '.datavrc');
+let content = {};
 if (fs.existsSync(datavrcURL)) {
   try {
     content = ini.parse(fs.readFileSync(datavrcURL, 'utf-8'));
   } catch (e) {
     debug(e.stack || e);
-    content = {}
+    content = {};
   }
 } else {
   debug('has no .datavrc in ', datavrcURL);

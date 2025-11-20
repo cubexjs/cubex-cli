@@ -17,13 +17,13 @@ module.exports = function(configSys, root, args = {}) {
   }
   
   const tarPath = path.join(root, '../', `${!packageCFG.name.includes('@') ? '@datav#' : ''}${packageCFG.name.replace('/', '#')}-${packageCFG.version}.tar.gz`);
-  pack(root, tarPath, { nodeModules: args.privatecloud }, function(err) {
+  pack(root, tarPath, { nodeModules: args.privatecloud }, (err) => {
     if (err) {
       log.err(err);
       return process.exit();
-    } else {
+    } 
       log.info(`${i18n.get('package.success')}`);
       return process.exit();
-    }
+    
   });
-}
+};
