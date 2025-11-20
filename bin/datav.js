@@ -48,8 +48,8 @@ const COMMANDMAP = {
   // 对公网暂时不发布
   // cubeBuild: require('../libs/cube_build'), // 采用 cube 打包模拟线上打包结果
   // 以下为多环境打包, 且用 webpack 打包
-  // comBuild: require('../libs/build'), // 组件不同版本打包
-  // comBuildReact: require('../libs/react_com_build')// react组件toDataV组件 临时方案，后续新增datav preview datav publish一键发布
+  comBuild: require('../libs/build'), // 组件不同版本打包
+  comBuildReact: require('../libs/react_com_build')// react组件toDataV组件 临时方案，后续新增datav preview datav publish一键发布
 };
 
 function exec(command, ...args) {
@@ -140,11 +140,11 @@ cmd.command('cube-build')
   .option('-d, --debug', 'debug mode')
   .action((...args) => exec('cubeBuild', ...args));
 
-// cmd.command('build')
-//   .description('datav build test')
-//   .argument('[root]', 'the root path')
-//   .option('--mode [value]', 'default is lite')
-//   .action((...args) => exec('comBuild', ...args));
+cmd.command('build')
+  .description('datav build test')
+  .argument('[root]', 'the root path')
+  .option('--mode [value]', 'default is lite')
+  .action((...args) => exec('comBuild', ...args));
 
 // cmd.command('build-react')
 //   .description('datav build-react')

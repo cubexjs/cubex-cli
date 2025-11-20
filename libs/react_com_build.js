@@ -1,9 +1,9 @@
 const path = require('path');
 const fs = require('fs');
 const fse = require('fs-extra');
-const log = require('./utils/log');
 const Webpack = require('webpack');
 const merge = require('webpack-merge');
+const log = require('./utils/log');
 
 const PKG = 'package.json';
 const BUILD_DIR = 'lib';
@@ -24,7 +24,7 @@ const copyDataV = async ({root, buildDir, pkgConfig, force, datavEntry}) => {
       "jquery": "3.5.0",
       "lodash": "4.17.15",
       "prop-types": "15.7.2"
-    }
+    };
     
     Object.keys(presetDeps).forEach((td) => {
       if (!dependencies[td]) {
@@ -164,11 +164,11 @@ const webpackBuild = async ({root, buildDir, args}) => {
       ...deps,
       function(context, request, callback) {
         if (request.indexOf('datav:/') === 0) {
-          return callback(null, 'commonjs ' + request);
+          return callback(null, `commonjs ${  request}`);
         }
         const l = request.split('/').length && request.split('/')[0];
         if (l && deps.some(d => l === d)){
-          return callback(null, 'commonjs ' + request);
+          return callback(null, `commonjs ${  request}`);
         }
         callback();
       },
@@ -200,7 +200,7 @@ const webpackBuild = async ({root, buildDir, args}) => {
           return resolve();
         }
       });
-    })
+    });
   } catch (e) {
     log.err('error1', e);
     return process.exit();
