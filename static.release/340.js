@@ -1,0 +1,1 @@
+Cube("static:/340.js",[],function(t,e,n,r,a,o){function u(){return e.default=u=Object.assign?Object.assign.bind():function(t){for(var e=1;e<arguments.length;e++){var n,r=arguments[e];for(n in r)Object.prototype.hasOwnProperty.call(r,n)&&(t[n]=r[n])}return t},u.apply(this,arguments)}return Object.defineProperty(e,"__esModule",{value:!0}),e.default=u,t.exports});

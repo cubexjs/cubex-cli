@@ -1,0 +1,1 @@
+Cube("static:/41.js",["static:/416.js","static:/35.js"],function(t,c,n,o,s,e){var i=n("static:/416.js"),r=n("static:/35.js");return t.exports=function(t){return!!r(t)&&("[object Function]"==(t=i(t))||"[object GeneratorFunction]"==t||"[object AsyncFunction]"==t||"[object Proxy]"==t)},t.exports});

@@ -1,0 +1,1 @@
+Cube("static:/726.js",[],function(t,o,r,e,n,c){var p=Object.prototype;return t.exports=function(t){var o=t&&t.constructor;return t===("function"==typeof o&&o.prototype||p)},t.exports});

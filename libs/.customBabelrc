@@ -1,0 +1,20 @@
+{
+  "compact": false,
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "chrome >= 56"
+          ]
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }]
+  ]
+}

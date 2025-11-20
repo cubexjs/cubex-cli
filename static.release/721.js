@@ -1,0 +1,1 @@
+Cube("static:/721.js",[],function(t,e,n,r,u,o){return t.exports=function(t){return"number"==typeof t&&-1<t&&t%1==0&&t<=9007199254740991},t.exports});

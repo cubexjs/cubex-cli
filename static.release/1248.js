@@ -1,0 +1,1 @@
+Cube("static:/1248.js",["static:/487.js"],function(t,r,n,a,s,e){var u=n("static:/487.js"),c=Math.max;return t.exports=function(e,i,o){return i=c(void 0===i?e.length-1:i,0),function(){for(var t=arguments,r=-1,n=c(t.length-i,0),a=Array(n);++r<n;)a[r]=t[i+r];for(var r=-1,s=Array(i+1);++r<i;)s[r]=t[r];return s[i]=o(a),u(e,this,s)}},t.exports});

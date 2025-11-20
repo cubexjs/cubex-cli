@@ -1,0 +1,2 @@
+Cube(867,["static:/416.js","static:/417.js"],function(t,s,r,c,e,n){var i=r("static:/416.js"),u=r("static:/417.js");return t.exports=function(t){return u(t)&&"[object Arguments]"==i(t)},t.exports});
+Cube("static:/719.js",["static:/417.js"],function(t,e,r,c,n,a){var s=r(867),l=r("static:/417.js"),r=Object.prototype,o=r.hasOwnProperty,u=r.propertyIsEnumerable,r=s(function(){return arguments}())?s:function(t){return l(t)&&o.call(t,"callee")&&!u.call(t,"callee")};return t.exports=r,t.exports});

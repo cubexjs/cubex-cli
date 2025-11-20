@@ -1,0 +1,1 @@
+Cube("static:/135.js",["static:/416.js","static:/417.js"],function(t,s,e,r,c,i){var n=e("static:/416.js"),u=e("static:/417.js");return t.exports=function(t){return"number"==typeof t||u(t)&&"[object Number]"==n(t)},t.exports});

@@ -1,0 +1,2 @@
+Cube(1178,[],function(n,t,o,r,e,u){return n.exports=function(n){if("function"!=typeof n)throw TypeError(n+" is not a function!");return n},n.exports});
+Cube("static:/1101.js",[],function(r,n,t,u,e,c){var i=t(1178);return r.exports=function(u,e,r){if(i(u),void 0===e)return u;switch(r){case 1:return function(r){return u.call(e,r)};case 2:return function(r,n){return u.call(e,r,n)};case 3:return function(r,n,t){return u.call(e,r,n,t)}}return function(){return u.apply(e,arguments)}},r.exports});

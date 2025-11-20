@@ -1,0 +1,1 @@
+Cube("static:/1211.js",[],function(t,r,o,e,s,n){return t.exports="constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf".split(","),t.exports});

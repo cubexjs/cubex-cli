@@ -1,0 +1,1 @@
+Cube("static:/360.js",[],function(e,t,n,r,i,s){return Object.defineProperty(t,"__esModule",{value:!0}),t.default=function(e){if(void 0!==e)return e;throw new ReferenceError("this hasn't been initialised - super() hasn't been called")},e.exports});

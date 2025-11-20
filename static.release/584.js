@@ -1,0 +1,1 @@
+Cube("static:/584.js",["static:/507.js","static:/1.js"],function(t,e,r,u,n,c){var a=r("static:/507.js").default,i=(Object.defineProperty(e,"__esModule",{value:!0}),e.default=function(t,e,r){var u=i.useRef({});"value"in u.current&&!r(u.current.condition,e)||(u.current.value=t(),u.current.condition=e);return u.current.value},a(r("static:/1.js")));return t.exports});

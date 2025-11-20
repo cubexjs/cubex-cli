@@ -1,0 +1,1 @@
+Cube("static:/487.js",[],function(e,r,t,c,n,a){return e.exports=function(e,r,t){switch(t.length){case 0:return e.call(r);case 1:return e.call(r,t[0]);case 2:return e.call(r,t[0],t[1]);case 3:return e.call(r,t[0],t[1],t[2])}return e.apply(r,t)},e.exports});

@@ -1,0 +1,1 @@
+Cube("static:/844.js",[],function(t,r,n,c,u,e){var o=Function.prototype.toString;return t.exports=function(t){if(null!=t){try{return o.call(t)}catch(t){}try{return t+""}catch(t){}}return""},t.exports});

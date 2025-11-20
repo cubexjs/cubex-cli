@@ -1,0 +1,1 @@
+Cube("static:/817.js",["static:/883.js"],function(t,e,n,r,s,c){var o=n("static:/883.js");return t.exports=function(t){var e=new t.constructor(t.byteLength);return new o(e).set(new o(t)),e},t.exports});

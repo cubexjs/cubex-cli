@@ -1,0 +1,1 @@
+Cube("static:/358.js",[],function(e,n,t,a,o,r){return Object.defineProperty(n,"__esModule",{value:!0}),n.default=function(e,n){if(!(e instanceof n))throw new TypeError("Cannot call a class as a function")},e.exports});

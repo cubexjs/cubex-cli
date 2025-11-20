@@ -1,0 +1,107 @@
+{
+  "dependencies": {
+    "@ali/datav-editor-gui": "1.4.0",
+    "@ali/deact": "^0.1.71",
+    "@ali/react-child-components-manager": "^0.0.30",
+    "@ali/react-maliang-editor": "0.2.5",
+    "alibabacloud-datav-tool-gui-utils": "^1.0.4",
+    "antd": "^4.16.7",
+    "axios": "0.18.0",
+    "bcore": "0.0.18",
+    "brace": "0.9.1",
+    "classnames": "2.2.6",
+    "cube-es2015": "2.0.9",
+    "cube-less": "3.1.1",
+    "cube-react": "2.1.0",
+    "diff": "^5.1.0",
+    "diff2html": "^3.4.13",
+    "jquery": "2.1.4",
+    "lodash": "^4.17.21",
+    "prop-types": "15.6.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-select": "2.1.2",
+    "react-transition-group": "2.5.0",
+    "reflux": "6.4.1"
+  },
+  "cube": {
+    "moduleMap": {
+      "react": "./umd/react.production.min.js",
+      "react-dom": "./umd/react-dom.production.min.js"
+    },
+    "build": {
+      "skip": [],
+      "ignore": [],
+      "reservedModule": []
+    },
+    "processors": {
+      ".less": "cube-less",
+      ".glsl": [
+        "cube-text"
+      ],
+      ".json": [
+        "cube-json"
+      ],
+      ".jsx": [
+        [
+          "cube-babel",
+          {
+            "compact": false,
+            "presets": [
+              [
+                "@babel/preset-env",
+                {
+                  "targets": {
+                    "browsers": [
+                      "last 2 versions",
+                      "chrome >= 56"
+                    ]
+                  }
+                }
+              ],
+              "@babel/preset-react"
+            ],
+            "plugins": [
+              [
+                "@babel/plugin-proposal-decorators",
+                {
+                  "legacy": true
+                }
+              ]
+            ]
+          }
+        ]
+      ],
+      ".js": [
+        [
+          "cube-babel",
+          {
+            "compact": false,
+            "presets": [
+              [
+                "@babel/preset-env",
+                {
+                  "targets": {
+                    "browsers": [
+                      "last 2 versions",
+                      "chrome >= 56"
+                    ]
+                  }
+                }
+              ],
+              "@babel/preset-react"
+            ],
+            "plugins": [
+              [
+                "@babel/plugin-proposal-decorators",
+                {
+                  "legacy": true
+                }
+              ]
+            ]
+          }
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Cube("static:/940.js",[],function(t,e,r,n,o,u){return e.__esModule=!0,e.default=function(t,e){var r,n={};for(r in t)0<=e.indexOf(r)||Object.prototype.hasOwnProperty.call(t,r)&&(n[r]=t[r]);return n},t.exports});

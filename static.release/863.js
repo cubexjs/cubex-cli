@@ -1,0 +1,1 @@
+Cube("static:/863.js",["static:/864.js"],function(t,e,r,a,s,i){var n=r("static:/864.js");return t.exports=function(t,e,r){"__proto__"==e&&n?n(t,e,{configurable:!0,enumerable:!0,value:r,writable:!0}):t[e]=r},t.exports});

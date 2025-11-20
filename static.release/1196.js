@@ -1,0 +1,1 @@
+Cube("static:/1196.js",["static:/1109.js","static:/1177.js","static:/1012.js"],function(t,s,a,i,c,o){var r=a("static:/1109.js").f,e=a("static:/1177.js"),j=a("static:/1012.js")("toStringTag");return t.exports=function(t,s,a){t&&!e(t=a?t:t.prototype,j)&&r(t,j,{configurable:!0,value:s})},t.exports});

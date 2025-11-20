@@ -1,0 +1,1 @@
+Cube("static:/31.js",[],function(t,n,e,o,r,s){return t.exports=function(){},t.exports});
